@@ -1,0 +1,47 @@
+body {
+  font-family: "yekan";
+  direction: rtl;
+  overflow-x: hidden;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('src/assets/fonts/Poppins/Poppins-Thin.ttf') format('truetype'); /* مسیر دقیق فایل‌های فونت */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* همچنین می‌توانید دیگر وزن‌های فونت را نیز اضافه کنید */
+
+
+@font-face {
+  font-family: "IranSans";
+  src: url("../src/assets/fonts/Iranian\ Sans.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yekan";
+  src: url("../src/assets/fonts/BYekan+.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "yekanBold";
+  src: url("../src/assets/fonts/BYekan+\ Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
